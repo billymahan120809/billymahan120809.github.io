@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>TERMS OF SERVICE</title>
+    <style>
+      body {
+        background-color:rgb(0, 0, 0);
+      }
+      .thing {
+        color:rgb(255, 255, 255);
+        font-size:3em;
+        text-align:center;
+      }
+      #title {
+        color:blue;
+        text-align:center;
+        font-size:5em;
+      }
+    </style>
+  </head>
+  <body>
+    <p id = "title">TO USE THIS PAGE YOU AGREE TO</p>
+    <div class = "thing">
+    <p>1. Acknowledge that Billy is the greatest person to ever live</p>
+    <p>2. Give Billy a Cookie</p>
+    <p>3. Say Nathan is the greatest disney princess I-I mean prince</p>
+    </div>
+  </body>
+</html>

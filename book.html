@@ -7,32 +7,31 @@
       body {
         background-color:black;
       }
-      #characterName {
-        font-size:5em;
-        text-align:center;
-        color:red;
-      }
-      .questions {
-        color:red;
-      }
-      #image {
-        width:400px;
-        margin:auto;
-      }
       #title {
-        position:relative;
         font-size:3em;
-        text-align:center;
+        position: absolute;
+        left: 50%;
+        transform: translate(-0%, -50%);
         color:blue;
       }
       #tos {
         color:white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-25%, -50%);
+      }
+      #iframe {
+        height: 1200;
+        width: 1200;
+        left: 50%;
+        transform: translate(-50%,-50%);
       }
     </style>
   </head>
   <body>
     <p id = "title">WELCOME TO THE MOST EPIC WEBSITE SO YOU DON'T HAVE TO CARRY AN EXTRA 2 POUNDS BY THE BEST PERSON IN THE WORLD: BILLY</p>
     <a id = "tos" href = "https://billymahan120809.github.io/termsofservice.html"><u>Terms of Service</u></a>
-    <iframe src="book_pdf.pdf" frameborder = "0" width = "1200" height = "1200" left = "300"></iframe>
+    <iframe src="book_pdf.pdf" frameborder = "0" id = "iframe"></iframe>
   </body>
 </html>
